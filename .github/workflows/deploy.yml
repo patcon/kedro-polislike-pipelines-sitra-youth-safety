@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DO_NOT_TRACK: true
-      KEDRO_POLIS_URL: https://voxit.sitra.fi/report/r7ihcrjuryz9vhnb9zhes
+      KEDRO_POLIS_URL: https://voxit.sitra.fi/report/r8m3werjkdhdpejy3awz7
     steps:
       - name: Fetch the repository
         uses: actions/checkout@v4
